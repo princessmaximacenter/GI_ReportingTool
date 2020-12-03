@@ -14,7 +14,7 @@ Simplified version of Figure 3 of the manuscript.
 
 **_data/cand_target_dkfz.txt_**
 
-Same table as table S2 of the manuscript. 
+Same table as table S2 of the manuscript.
 
 **_data/muts_cand_target_dkfz.txt_**
 
@@ -26,4 +26,4 @@ This file is the output file of VEP after submitting a filtered version of _muts
 
 
 ## Subset of the data
-Unfortunately, we cannot share the complete tables, because of sensitive information. However, we can share the HGG-K27M information of DKFZ. Please note, only these cancer types will be shown in the reporting tool when running it from here. All candidates can be analyzed via http://gi-analysis.bioinf.prinsesmaximacentrum.nl/. 
+Unfortunately, we cannot share the complete tables, because of sensitive information. However, we will share the HGG-K27M, HGG-other, and MB-SHH information of DKFZ to get familiar with the tool. Please note, the files in the data folder only contains the information of these three cancer types and therefore only the associated candidates are shown in the reporting tool when running it from here. All candidates can be analyzed via http://gi-analysis.bioinf.prinsesmaximacentrum.nl/. 
