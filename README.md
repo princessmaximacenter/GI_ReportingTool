@@ -1,5 +1,5 @@
 # GI_ReportingTool
-Genetic Interaction Reporting Tool to collect information of mutually exclusive and co-occurring altered gene pairs in childhood cancers.
+Genetic Interaction Reporting Tool to collect information of mutually exclusive and co-occurring altered gene pairs in childhood cancers. For more details about the candidates we refer to the accompanying manuscript **_A comprehensive map of genetic interactions in childhood cancer reveals multiple underlying biological mechanisms_** (https://doi.org/10.1101/2020.11.17.385120)
 
 
 ## Running the app
