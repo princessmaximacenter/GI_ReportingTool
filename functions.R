@@ -3,7 +3,7 @@
 #
 # Author(s): Denise Kersjes
 # Date of creation:  21  September 2020
-# Date of last edit: 30 November 2020
+# Date of last edit: 22 January 2021
 
 
 ### Load required files
@@ -17,6 +17,11 @@ muts.df <- utils::read.delim(file = muts.file, header = T,
 cand.df <- utils::read.delim(file = cand.file, header = T, 
                              stringsAsFactors = F, sep = "\t")
 
+### Prepare candidates files
+
+# Add a column containing the list for the drop down menu
+cand.df$drop_list <- paste0(cand.df$cancer.type, " (", 
+                            toupper(cand.df$dataset), ")")
 
 ### Prepare the MAF file
 
